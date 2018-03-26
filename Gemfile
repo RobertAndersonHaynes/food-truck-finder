@@ -28,8 +28,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'omniauth-google-oauth2'
+gem 'figaro'
+
 group :test do
   gem 'coveralls', require: false
+  
 end
 
 group :development, :test do
